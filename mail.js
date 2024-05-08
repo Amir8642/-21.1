@@ -75,12 +75,12 @@ true
         count: 0,
         arr: []
     }
-arr.forEach(task => {
-    if (task.completed) {
-        b.arr.push(task);
+arr.forEach(vl => {
+    if (vl.completed) {
+        b.arr.push(vl);
         b.count++;
     } else {
-        a.arr.push(task);
+        a.arr.push(vl);
         a.count++;
     }
 });
